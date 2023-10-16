@@ -1,0 +1,53 @@
+@font-face {
+font-family: "Poppins";
+font-weight: 400;
+font-style: normal;
+    src: local("Poppins Regular"),
+            local("Poppins-Regular"),
+                url("../Fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+                url("../Fonts/Poppins/Poppins-Regular.woff") format("woff"),
+                url("../Fonts/Poppins/Poppins-Regular.eot") format("eot");
+    font-display:swap
+}@font-face {
+font-family: "Poppins";
+font-weight: 500;
+font-style: normal;
+    src: local("Poppins Medium"),
+            local("Poppins-Medium"),
+                url("../Fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+                url("../Fonts/Poppins/Poppins-Medium.woff") format("woff"),
+                url("../Fonts/Poppins/Poppins-Medium.eot") format("eot");
+    font-display:swap
+}@font-face {
+font-family: "Poppins";
+font-weight: 700;
+font-style: normal;
+    src: local("Poppins Bold"),
+            local("Poppins-Bold"),
+                url("../Fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+                url("../Fonts/Poppins/Poppins-Bold.woff") format("woff"),
+                url("../Fonts/Poppins/Poppins-Bold.eot") format("eot");
+    font-display:swap
+}@font-face {
+font-family: "Poppins";
+font-weight: 900;
+font-style: normal;
+    src: local("Poppins Black"),
+            local("Poppins-Black"),
+                url("../Fonts/Poppins/Poppins-Black.woff2") format("woff2"),
+                url("../Fonts/Poppins/Poppins-Black.woff") format("woff"),
+                url("../Fonts/Poppins/Poppins-Black.eot") format("eot");
+    font-display:swap
+}@font-face {
+font-family: "Roboto";
+font-weight: 400;
+font-style: normal;
+    src: local("Roboto Regular"),
+            local("Roboto-Regular"),
+                url("../Fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+                url("../Fonts/Roboto/Roboto-Regular.woff") format("woff"),
+                url("../Fonts/Roboto/Roboto-Regular.eot") format("eot");
+    font-display:swap
+}
+/* --------------------- */
+
