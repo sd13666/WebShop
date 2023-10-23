@@ -1,53 +1,83 @@
 @font-face {
-font-family: "Poppins";
-font-weight: 400;
-font-style: normal;
-    src: local("Poppins Regular"),
-            local("Poppins-Regular"),
-                url("../Fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
-                url("../Fonts/Poppins/Poppins-Regular.woff") format("woff"),
-                url("../Fonts/Poppins/Poppins-Regular.eot") format("eot");
-    font-display:swap
-}@font-face {
-font-family: "Poppins";
-font-weight: 500;
-font-style: normal;
-    src: local("Poppins Medium"),
-            local("Poppins-Medium"),
-                url("../Fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
-                url("../Fonts/Poppins/Poppins-Medium.woff") format("woff"),
-                url("../Fonts/Poppins/Poppins-Medium.eot") format("eot");
-    font-display:swap
-}@font-face {
-font-family: "Poppins";
-font-weight: 700;
-font-style: normal;
-    src: local("Poppins Bold"),
-            local("Poppins-Bold"),
-                url("../Fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
-                url("../Fonts/Poppins/Poppins-Bold.woff") format("woff"),
-                url("../Fonts/Poppins/Poppins-Bold.eot") format("eot");
-    font-display:swap
-}@font-face {
-font-family: "Poppins";
-font-weight: 900;
-font-style: normal;
-    src: local("Poppins Black"),
-            local("Poppins-Black"),
-                url("../Fonts/Poppins/Poppins-Black.woff2") format("woff2"),
-                url("../Fonts/Poppins/Poppins-Black.woff") format("woff"),
-                url("../Fonts/Poppins/Poppins-Black.eot") format("eot");
-    font-display:swap
-}@font-face {
-font-family: "Roboto";
-font-weight: 400;
-font-style: normal;
-    src: local("Roboto Regular"),
-            local("Roboto-Regular"),
-                url("../Fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
-                url("../Fonts/Roboto/Roboto-Regular.woff") format("woff"),
-                url("../Fonts/Roboto/Roboto-Regular.eot") format("eot");
-    font-display:swap
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../Fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+    url("../Fonts/Poppins/Poppins-Regular.woff") format("woff"),
+    url("../Fonts/Poppins/Poppins-Regular.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../Fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+    url("../Fonts/Poppins/Poppins-Medium.woff") format("woff"),
+    url("../Fonts/Poppins/Poppins-Medium.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../Fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+    url("../Fonts/Poppins/Poppins-Bold.woff") format("woff"),
+    url("../Fonts/Poppins/Poppins-Bold.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-style: normal;
+  src: local("Poppins Black"), local("Poppins-Black"),
+    url("../Fonts/Poppins/Poppins-Black.woff2") format("woff2"),
+    url("../Fonts/Poppins/Poppins-Black.woff") format("woff"),
+    url("../Fonts/Poppins/Poppins-Black.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url("../Fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+    url("../Fonts/Roboto/Roboto-Regular.woff") format("woff"),
+    url("../Fonts/Roboto/Roboto-Regular.eot") format("eot");
+  font-display: swap;
 }
 /* --------------------- */
+.developer {
+  padding: 52px;
+  color: #000;
+  font-family: Roboto;
+  font-size: clamp(14px, 2vw, 20px);
+}
+html {
+  background-color: rgba(255, 232, 111, 0.61);
+}
+body {
+  background: url(../Images/bg_strip_1.svg) no-repeat left 0 top 20px,
+    url(../Images/bg_strip_1.svg) no-repeat left 0 top 42px,
+    url(../Images/bg_strip_1.svg) no-repeat left 0 top 65px,
+    url(../Images/bg_strip_1.svg) no-repeat left 0 top 87px;
+  background-size: contain;
+  z-index: inherit;
+}
+header, main, footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+}
+.navbar-brand {
+  color: #000;
 
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.9px;
+}
