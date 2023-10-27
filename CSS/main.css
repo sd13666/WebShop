@@ -48,6 +48,9 @@
     url("../Fonts/Roboto/Roboto-Regular.eot") format("eot");
   font-display: swap;
 }
+
+
+
 /* --------------------- */
 
 html {
@@ -62,13 +65,6 @@ body {
   z-index: inherit;
   font-family: Poppins;
 }
-/* header, main, footer {
-  width: 1440px;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 40px;
-  background: #F4F6F5;
-} */
 .developer {
   padding: 42px;
   color: #000;
@@ -103,10 +99,10 @@ body {
   letter-spacing: 0.2px;
 }
 .nav-item{
-  margin-left: 47px;
+  margin-left: 27px;
 }
 .nav-item:last-child{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .btn-primary{
   width: 100px;
@@ -115,18 +111,71 @@ body {
   background: #000;
 }
 
+
+
+
 /* Header__middle */
+
+
+
+
 .header__middle{
   margin: 0 75px;
+  border-radius: 40px;
+  background: #F4F6F5;
+}
+.banner__left-side{
+}
+.display-1{
+  width: clamp(355px);
+  height: clamp(355px);
+  color: #000;
+  font-size: clamp(20px, 7cqw, 72px);
+  font-weight: 900;
+}
+
+.display-1_text{
+  width: 455px;
+  color: #191818;
+  font-size: clamp(10px, 2vw, 24px);
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  margin-top: -80px;
+}
+.z-2 {    
+  top: -185px;
+  left: -18px;
+  width: 372px;
+  height: 88px;
+  transform: rotate(-2.002deg);
+  background: #EBD96B;
+}
+.btn-secondary{  
+  border-radius: 5px;
+  background: #000;
 }
 .banner {
   display: flex;
-  width: 1290px;
+  width: clamp(1290px);
   margin-top: 48px;
 } 
+
+
 .banner_girl {
-  width: 648px;
-  height: 568px;
+  width:clamp(648px);
+}
+
+.d-flex{
+  align-items: center;
+  margin: 0 auto;
+  height: 140px;
+  background: #EBD96B;
+}
+.flex-fill {
+  flex: 0!important;
+}
+.justify-content-between{
+  width: 1290px;
 }
 
 
@@ -239,14 +288,7 @@ body {
   font-size: 72px;
   font-weight: 900;
 }
-.display-1{
-  width: 355px;
-  height: 355px;
-  color: #000;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 90px;
-}
+
 .banner__left-side > p {
   color: #191818;
   font-size: 24px;
@@ -272,13 +314,7 @@ body {
   background: #F4F6F5;
 }
 
-.d-flex{
-  width: auto;
-  align-items: center;
-  margin: 0 auto;
-  height: 140px;
-  background: #EBD96B;
-}
+
 .flex-fill{
   margin-left: 40px;
 } */
@@ -309,11 +345,7 @@ body {
   letter-spacing: 1px;
 } */
 /* .desktop1{
-  width: 1290px;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 39.474px;
-  background: #F4F6F5;
+  
 } */
 /* .banner {
   display: flex;
@@ -326,4 +358,4 @@ body {
 height: 568px;
 flex-shrink: 0;
 }
- */
+ */ 
